@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #e8e8e8;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.circle_1 {
+    height: 1000px;
+    width: 1000px;
+    position: fixed;
+    border-radius: 100%;
+    z-index: -1;
+    left: -9rem;
+    top: 54%;
+    transform: translateY(-38%);
+    background-image: linear-gradient(to right, #94a3c2, #596888);
+}
+
+.login_page {
+    display: flex;
+    align-items: center;
+    width: 81%;
+    max-width: 1200px;
+    height: 600px;
+    border-radius: 20px;
+    border: 5px solid #fff;
+    overflow: hidden;
+}
+
+.login_page form {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(22px);
+}
+
+
+.login_page form h1 {
+    color: #fff;
+    margin-bottom: 3rem;
+
+}
+
+
+.login_img {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 100%;
+
+}
+
+.login_img img {
+    object-fit: cover;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    width: 50%;
+}
+
+.form_group label {
+    color: #fff;
+    margin-bottom: 0.5rem;
+    padding-left: 12px;
+}
+
+.form_group input {
+    border: 2px solid #fff;
+    background-color: transparent;
+    height: 45px;
+    border-radius: 20px;
+}
+
+
+.button_form {
+    width: 50%;
+
+}
+
+.button_form button {
+    width: 100%;
+    background-color: #fff;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.bottom_form a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+@media screen and (max-width : 768px) {
+    .login_img{
+        display: none;
+    }
+        .login_page form {
+        width: 100%;
+    }
+    .form-group ,.button-form {
+        width: 80%;
+    }
+}
