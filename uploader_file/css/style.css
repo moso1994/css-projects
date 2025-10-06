@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cfd6e1;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload_section{
+    background-color: #fff;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(99,99,99,0.2);
+    padding: 1.5rem;
+    max-height: 800px;
+    overflow-y: auto;
+}
+.upload_section h5{
+    color: #5a81da;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.list_upload{
+    margin: 2rem 0;
+}
+.list_upload li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.info-file{
+    width: 70%
+}
+.title-file{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-file span:first-child{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+}
+.color_5a81da{
+    color: #5a81da;
+    
+}
+.color_a4bffc{
+    color: #a4bffc;
+    
+}
+
+.progress{
+    background-color: #e3e3e3;
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+}
+.bar_progress{
+    background-image: linear-gradient(to right,#f432ac,#e70669);
+    height: 100%;
+    border-radius: 10px;
+}
+.label_upload_file{
+    border: 5px dashed #dfe7fe;
+    border-radius: 20px;
+    padding: 3rem 0;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    color: #b3c6ff;
+    font-size: 1.5rem
+}
